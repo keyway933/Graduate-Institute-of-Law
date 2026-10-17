@@ -1,0 +1,1 @@
+const assert=require('node:assert/strict');const {decide}=require('./engine.js');for(const [p,t] of [[{goal:'yes',fund:'yes',fit:'yes'},'優先評估報考研究所'],[{goal:'no',fund:'yes'},'優先準備律師考試'],[{goal:'yes',fund:'no'},'先安排收入，再規劃備考'],[{goal:'unknown',fund:'yes'},'先補齊關鍵條件，再決定']])assert.equal(decide(p).title,t);console.log('decision checks passed');
