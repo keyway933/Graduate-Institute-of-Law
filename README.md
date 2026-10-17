@@ -1,2 +1,21 @@
-# Graduate-Institute-of-Law
-Graduate Institute of Law OR Studying full-time for the bar exam
+# 考法律研究所嗎？
+
+免登入、無 LLM 的台灣法律升學決策輔助雛形。所有輸入僅存在頁面記憶體，重新整理清除，可下載文字報告。
+
+## 啟用網站
+GitHub Settings → Pages → Source: Deploy from a branch → Branch: main → /(root) → Save。
+預期網址：https://keyway933.github.io/Graduate-Institute-of-Law/ （必須啟用 Pages 並成功建置後才可開啟）。
+
+## 判斷規則
+- 獨立進修目的、資源足夠、已確認校系：優先評估研究所。
+- 無獨立進修目的、資源足夠：優先準備律師。
+- 資源不足：先安排收入與備考方式。
+- 其餘：補資料後再決定。
+
+規則尚未經成效驗證，不是錄取預測。成績只與使用者確認相同年度、組別、階段、計分方式的門檻比較，不用來推估機率或自動決定進修價值。
+
+## 資料狀態
+內建官方門檻 0 筆。已有臺大招生及115學年度官方統計、考選部資料入口；全台歷年校系與錄取資料尚未建置。示範數字全部虛構。下一階段建立可溯源的年度／校系／組別／考科／配分／正備取門檻資料集，缺漏明列。
+
+## 開發驗證
+`node test.cjs`。靜態 HTML/JS 無套件依賴，直接相容 GitHub Pages。
